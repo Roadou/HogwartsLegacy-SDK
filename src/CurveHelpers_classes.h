@@ -1,0 +1,46 @@
+// Class CurveHelpers.CurveFromTextureLibrary
+// Size: 0x28 (Inherited: 0x28)
+struct UCurveFromTextureLibrary : UBlueprintFunctionLibrary {
+
+	void TextureToLinearColorCurve(struct UTexture2D* Texture, struct FSampleTextureToCurve Settings, struct UCurveLinearColor* ColorCurve, bool& Worked); // Function CurveHelpers.CurveFromTextureLibrary.TextureToLinearColorCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7eb00
+};
+
+// Class CurveHelpers.CurveHelpersBlueprintLibrary
+// Size: 0x28 (Inherited: 0x28)
+struct UCurveHelpersBlueprintLibrary : UBlueprintFunctionLibrary {
+
+	void ShiftCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, float DeltaTime); // Function CurveHelpers.CurveHelpersBlueprintLibrary.ShiftCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e9a0
+	void SetSplineHasBeenEdited(struct USplineComponent* Spline, bool bEdited); // Function CurveHelpers.CurveHelpersBlueprintLibrary.SetSplineHasBeenEdited // (Final|Native|Static|Public|BlueprintCallable) // @ game+0x1d7e8d0
+	void SetExternalCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct UCurveFloat* ExternalCurve, bool bCopyToInternal); // Function CurveHelpers.CurveHelpersBlueprintLibrary.SetExternalCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e730
+	void SetCurveKeys(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct TArray<struct FBlueprintCurveKey>& Keys); // Function CurveHelpers.CurveHelpersBlueprintLibrary.SetCurveKeys // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e5c0
+	void SetCurveDefaultValue(struct FRuntimeFloatCurve& RuntimeFloatCurve, float DefaultValue); // Function CurveHelpers.CurveHelpersBlueprintLibrary.SetCurveDefaultValue // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e460
+	void ScaleCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, float ScaleOrigin, float ScaleFactor); // Function CurveHelpers.CurveHelpersBlueprintLibrary.ScaleCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e2c0
+	void RunConstructionScripts(struct AActor* Actor); // Function CurveHelpers.CurveHelpersBlueprintLibrary.RunConstructionScripts // (Final|Native|Static|Public|BlueprintCallable) // @ game+0x1d7e240
+	void ResetCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.ResetCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7e140
+	void RemoveRedundantCurveKeys(struct FRuntimeFloatCurve& RuntimeFloatCurve, float Tolerance); // Function CurveHelpers.CurveHelpersBlueprintLibrary.RemoveRedundantCurveKeys // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7dfe0
+	void MakeLinearCurveKey(float Time, float Value, struct FBlueprintCurveKey& Key); // Function CurveHelpers.CurveHelpersBlueprintLibrary.MakeLinearCurveKey // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7de70
+	void MakeCurveKeysTriplet(struct TArray<struct FBlueprintCurveKey>& Keys, float StartTime, float StartValue, float MidTime, float MidValue, float EndTime, float EndValue, bool bLinear); // Function CurveHelpers.CurveHelpersBlueprintLibrary.MakeCurveKeysTriplet // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7dbf0
+	void MakeCurveKeysSimple(struct TArray<struct FBlueprintCurveKey>& Keys, float StartTime, float StartValue, float EndTime, float EndValue, bool bLinear); // Function CurveHelpers.CurveHelpersBlueprintLibrary.MakeCurveKeysSimple // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7da00
+	void MakeCurveKey(float Time, float Value, struct FBlueprintCurveKey& Key, enum class ERichCurveInterpMode InterpMode, float ArriveTangent, float LeaveTangent); // Function CurveHelpers.CurveHelpersBlueprintLibrary.MakeCurveKey // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7d7d0
+	void IsUsingExternalCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, bool& bExternalCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.IsUsingExternalCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7d670
+	void InsertCurveKeys(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct TArray<struct FBlueprintCurveKey>& Keys); // Function CurveHelpers.CurveHelpersBlueprintLibrary.InsertCurveKeys // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7d500
+	void InsertCurveKey(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct FBlueprintCurveKey& Key); // Function CurveHelpers.CurveHelpersBlueprintLibrary.InsertCurveKey // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7d380
+	void GetSplineHasBeenEdited(struct USplineComponent* Spline, bool& bEdited); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetSplineHasBeenEdited // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7d2a0
+	void GetExternalCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct UCurveFloat*& ExternalCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetExternalCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7d140
+	void GetCurveValueRange(struct FRuntimeFloatCurve& RuntimeFloatCurve, float& MinValue, float& MaxValue); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveValueRange // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7cf80
+	void GetCurveTimeRange(struct FRuntimeFloatCurve& RuntimeFloatCurve, float& MinTime, float& MaxTime); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveTimeRange // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7cdc0
+	void GetCurveKeyTimeValue(struct FRuntimeFloatCurve& RuntimeFloatCurve, int32_t KeyIndex, float& Time, float& Value, bool& bInRange); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveKeyTimeValue // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c9b0
+	void GetCurveKeys(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct TArray<struct FBlueprintCurveKey>& Keys, int32_t& KeyCount); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveKeys // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7cbf0
+	void GetCurveKeyCount(struct FRuntimeFloatCurve& RuntimeFloatCurve, int32_t& KeyCount); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveKeyCount // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c850
+	void GetCurveKey(struct FRuntimeFloatCurve& RuntimeFloatCurve, int32_t KeyIndex, struct FBlueprintCurveKey& Key, bool& bInRange); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveKey // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c650
+	void GetCurveDefaultValue(struct FRuntimeFloatCurve& RuntimeFloatCurve, float& DefaultValue); // Function CurveHelpers.CurveHelpersBlueprintLibrary.GetCurveDefaultValue // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c4e0
+	void EvalCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve, float Time, float& Value); // Function CurveHelpers.CurveHelpersBlueprintLibrary.EvalCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c330
+	void CurveKeyIndexInRange(struct FRuntimeFloatCurve& RuntimeFloatCurve, int32_t KeyIndex, bool& bInRange); // Function CurveHelpers.CurveHelpersBlueprintLibrary.CurveKeyIndexInRange // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c190
+	void CurveHasAnyData(struct FRuntimeFloatCurve& RuntimeFloatCurve, bool& bHasAnyData); // Function CurveHelpers.CurveHelpersBlueprintLibrary.CurveHasAnyData // (Final|Native|Static|Public|HasOutParms|BlueprintCallable|BlueprintPure) // @ game+0x1d7c030
+	void ConvertExternalCurve(struct FRuntimeFloatCurve& RuntimeFloatCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.ConvertExternalCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7bf30
+	void CloneCurve(struct FRuntimeFloatCurve& SourceRuntimeFloatCurve, struct FRuntimeFloatCurve& NewRuntimeFloatCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.CloneCurve // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7bd70
+	void ClearCurveDefaultValue(struct FRuntimeFloatCurve& RuntimeFloatCurve); // Function CurveHelpers.CurveHelpersBlueprintLibrary.ClearCurveDefaultValue // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7bc70
+	void AutoSetCurveTangents(struct FRuntimeFloatCurve& RuntimeFloatCurve, float Tension); // Function CurveHelpers.CurveHelpersBlueprintLibrary.AutoSetCurveTangents // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7bb10
+	void AppendCurveKey(struct FRuntimeFloatCurve& RuntimeFloatCurve, struct FBlueprintCurveKey& Key); // Function CurveHelpers.CurveHelpersBlueprintLibrary.AppendCurveKey // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x1d7b990
+};
+

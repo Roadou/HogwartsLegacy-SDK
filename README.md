@@ -1,2 +1,2 @@
-# HogwartsLegacy-SDK
+# HogwartsLegacy-Modding-SDK
 SDK for Hogwarts Legacy

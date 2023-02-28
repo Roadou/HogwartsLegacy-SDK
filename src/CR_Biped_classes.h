@@ -1,0 +1,26 @@
+// ControlRigBlueprintGeneratedClass CR_Biped.CR_Biped_C
+// Size: 0x7dd (Inherited: 0x650)
+struct UCR_Biped_C : UControlRig {
+	struct FTransform LeftFootTransform; // 0x650(0x30)
+	struct FTransform LeftToeTransform; // 0x680(0x30)
+	struct FTransform RightFootTransform; // 0x6b0(0x30)
+	struct FTransform RightToeTransform; // 0x6e0(0x30)
+	struct FTransform HipTransform; // 0x710(0x30)
+	float LeftFootAlpha; // 0x740(0x04)
+	float RightFootAlpha; // 0x744(0x04)
+	float HipAlpha; // 0x748(0x04)
+	float AimAlpha; // 0x74c(0x04)
+	struct FVector AimTarget; // 0x750(0x0c)
+	char pad_75C[0x4]; // 0x75c(0x04)
+	struct FTransform LeftHandTransform; // 0x760(0x30)
+	struct FTransform RightHandTransform; // 0x790(0x30)
+	float LeftHandAlpha; // 0x7c0(0x04)
+	float RightHandAlpha; // 0x7c4(0x04)
+	float CushionAmount; // 0x7c8(0x04)
+	float LeftLegExtension; // 0x7cc(0x04)
+	float RightLegExtension; // 0x7d0(0x04)
+	float AimLooseness; // 0x7d4(0x04)
+	float SpineMobility; // 0x7d8(0x04)
+	bool ApplyConstraints; // 0x7dc(0x01)
+};
+

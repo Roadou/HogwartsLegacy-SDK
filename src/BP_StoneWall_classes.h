@@ -1,0 +1,45 @@
+// BlueprintGeneratedClass BP_StoneWall.BP_StoneWall_C
+// Size: 0x2dd (Inherited: 0x248)
+struct ABP_StoneWall_C : AActor {
+	struct UBP_SplineToolGenerator_C* ISM Generation Component; // 0x248(0x08)
+	struct USplineComponent* Spline; // 0x250(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x258(0x08)
+	float SectionLength; // 0x260(0x04)
+	char pad_264[0x4]; // 0x264(0x04)
+	struct UStaticMesh* Start Mesh; // 0x268(0x08)
+	struct UStaticMesh* End Mesh; // 0x270(0x08)
+	float Scaler; // 0x278(0x04)
+	float ScaleMin; // 0x27c(0x04)
+	float ScaleMax; // 0x280(0x04)
+	float OffsetAmount; // 0x284(0x04)
+	int32_t Int0; // 0x288(0x04)
+	int32_t Int1; // 0x28c(0x04)
+	float YawRandomOffset; // 0x290(0x04)
+	float MinZ_Offset; // 0x294(0x04)
+	float MaxZ_Offset; // 0x298(0x04)
+	float RollOffset; // 0x29c(0x04)
+	int32_t NthCanceToDelete; // 0x2a0(0x04)
+	float OverAllScaleFactor; // 0x2a4(0x04)
+	bool RotateMeshAtOrigin; // 0x2a8(0x01)
+	bool UseHISMToolComponent; // 0x2a9(0x01)
+	bool Start and End Mesh; // 0x2aa(0x01)
+	char pad_2AB[0x1]; // 0x2ab(0x01)
+	float Spacing Offset; // 0x2ac(0x04)
+	bool Use Spline Mesh by Max Angle; // 0x2b0(0x01)
+	char pad_2B1[0x3]; // 0x2b1(0x03)
+	float Max Angle Delta; // 0x2b4(0x04)
+	struct FName In Collision Profile Name; // 0x2b8(0x08)
+	bool Enable Debugging; // 0x2c0(0x01)
+	char pad_2C1[0x3]; // 0x2c1(0x03)
+	int32_t Use HISMThreshold; // 0x2c4(0x04)
+	struct FRandomStream Random Seed; // 0x2c8(0x08)
+	int32_t Debug ISM Components Count; // 0x2d0(0x04)
+	int32_t Debug Spline Mesh Components Count; // 0x2d4(0x04)
+	int32_t Debug ISM Instances Count; // 0x2d8(0x04)
+	bool Flip Mesh; // 0x2dc(0x01)
+
+	void RequestDestroyComponent(struct UInstancedStaticMeshComponent* ISM Component, bool& Success); // Function BP_StoneWall.BP_StoneWall_C.RequestDestroyComponent // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	struct FTransform GetTransformAlongSpline(int32_t LoopIndex); // Function BP_StoneWall.BP_StoneWall_C.GetTransformAlongSpline // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x38a7480
+	void UserConstructionScript(); // Function BP_StoneWall.BP_StoneWall_C.UserConstructionScript // (Event|Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+};
+

@@ -1,0 +1,9 @@
+// AblAbilityBlueprintGeneratedClass ABL_ShadowBlink_End.ABL_ShadowBlink_End_C
+// Size: 0xd0 (Inherited: 0xc8)
+struct UABL_ShadowBlink_End_C : UAblAbility {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0xc8(0x08)
+
+	void OnAbilityStart(struct UAblAbilityContext* Context); // Function ABL_ShadowBlink_End.ABL_ShadowBlink_End_C.OnAbilityStart // (Event|Public|BlueprintEvent|Const) // @ game+0x38a7480
+	void ExecuteUbergraph_ABL_ShadowBlink_End(int32_t EntryPoint); // Function ABL_ShadowBlink_End.ABL_ShadowBlink_End_C.ExecuteUbergraph_ABL_ShadowBlink_End // (Final|UbergraphFunction) // @ game+0x38a7480
+};
+

@@ -1,0 +1,40 @@
+// BlueprintGeneratedClass BP_AccioPuzzleDiorama.BP_AccioPuzzleDiorama_C
+// Size: 0x350 (Inherited: 0x248)
+struct ABP_AccioPuzzleDiorama_C : AActor {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x248(0x08)
+	struct UStaticMeshComponent* e3; // 0x250(0x08)
+	struct UStaticMeshComponent* e2; // 0x258(0x08)
+	struct UStaticMeshComponent* e1; // 0x260(0x08)
+	struct UStaticMeshComponent* E; // 0x268(0x08)
+	struct UStaticMeshComponent* Cube1; // 0x270(0x08)
+	struct UStaticMeshComponent* Cube; // 0x278(0x08)
+	struct UStaticMeshComponent* PaintingLayer_016; // 0x280(0x08)
+	struct UStaticMeshComponent* W; // 0x288(0x08)
+	struct UStaticMeshComponent* PaintingLayer_015; // 0x290(0x08)
+	struct UStaticMeshComponent* PaintingLayer_014; // 0x298(0x08)
+	struct UStaticMeshComponent* PaintingLayer_013; // 0x2a0(0x08)
+	struct UStaticMeshComponent* PaintingLayer_012; // 0x2a8(0x08)
+	struct UStaticMeshComponent* PaintingLayer_011; // 0x2b0(0x08)
+	struct UStaticMeshComponent* PaintingLayer_010; // 0x2b8(0x08)
+	struct UStaticMeshComponent* PaintingLayer_09; // 0x2c0(0x08)
+	struct UStaticMeshComponent* PaintingLayer_08; // 0x2c8(0x08)
+	struct UStaticMeshComponent* PaintingLayer_07; // 0x2d0(0x08)
+	struct UStaticMeshComponent* PaintingLayer_06; // 0x2d8(0x08)
+	struct USpotLightComponent* SpotLight; // 0x2e0(0x08)
+	struct UNiagaraComponent* Smoke; // 0x2e8(0x08)
+	struct UStaticMeshComponent* PaintingLayer_Snow_01; // 0x2f0(0x08)
+	struct UStaticMeshComponent* PaintingLayer_04; // 0x2f8(0x08)
+	struct UStaticMeshComponent* PaintingLayer_03; // 0x300(0x08)
+	struct UStaticMeshComponent* PaintingLayer_02; // 0x308(0x08)
+	struct UStaticMeshComponent* PaintingLayer_01; // 0x310(0x08)
+	struct UCameraComponent* Camera_Finish; // 0x318(0x08)
+	struct UCameraComponent* Camera_Start; // 0x320(0x08)
+	struct USpotLightComponent* SpotLight_Hut; // 0x328(0x08)
+	struct UStaticMeshComponent* StaticMesh_SpruceTree; // 0x330(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x338(0x08)
+	struct TArray<struct AActor*> In Actor; // 0x340(0x10)
+
+	void ReceiveBeginPlay(); // Function BP_AccioPuzzleDiorama.BP_AccioPuzzleDiorama_C.ReceiveBeginPlay // (Event|Protected|BlueprintEvent) // @ game+0x38a7480
+	void ExecuteUbergraph_BP_AccioPuzzleDiorama(int32_t EntryPoint); // Function BP_AccioPuzzleDiorama.BP_AccioPuzzleDiorama_C.ExecuteUbergraph_BP_AccioPuzzleDiorama // (Final|UbergraphFunction) // @ game+0x38a7480
+};
+
