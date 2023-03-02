@@ -24,7 +24,7 @@ struct ABP_Mesh_Spline_C : AActor {
 	struct UStaticMesh* MiddleMesh02; // 0x2b8(0x08)
 	struct UStaticMesh* MiddleMesh03; // 0x2c0(0x08)
 	struct UStaticMesh* MiddleMesh04; // 0x2c8(0x08)
-	float tangentScale; // 0x2d0(0x04)
+	float TangentScale; // 0x2d0(0x04)
 	enum class ECollisionEnabled Collision For SplineMeshes?; // 0x2d4(0x01)
 	bool Start and End Mesh; // 0x2d5(0x01)
 	bool StartMesh_2; // 0x2d6(0x01)

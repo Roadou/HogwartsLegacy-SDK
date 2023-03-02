@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass BP_Vault_CrawlDoor_01.BP_Vault_CrawlDoor_01_C
+// Size: 0x2f8 (Inherited: 0x248)
+struct ABP_Vault_CrawlDoor_01_C : AActor {
+	struct UDecalComponent* Decal2; // 0x248(0x08)
+	struct UDecalComponent* Decal1; // 0x250(0x08)
+	struct UDecalComponent* Decal; // 0x258(0x08)
+	struct UStaticMeshComponent* MinimumSpaceCube; // 0x260(0x08)
+	struct UStaticMeshComponent* StaticMesh14; // 0x268(0x08)
+	struct UStaticMeshComponent* StaticMesh13; // 0x270(0x08)
+	struct UStaticMeshComponent* StaticMesh12; // 0x278(0x08)
+	struct UStaticMeshComponent* StaticMesh11; // 0x280(0x08)
+	struct UStaticMeshComponent* StaticMesh10; // 0x288(0x08)
+	struct UStaticMeshComponent* StaticMesh9; // 0x290(0x08)
+	struct UStaticMeshComponent* StaticMesh8; // 0x298(0x08)
+	struct UStaticMeshComponent* StaticMesh6; // 0x2a0(0x08)
+	struct UStaticMeshComponent* StaticMesh5; // 0x2a8(0x08)
+	struct UStaticMeshComponent* StaticMesh4; // 0x2b0(0x08)
+	struct UStaticMeshComponent* StaticMesh3; // 0x2b8(0x08)
+	struct UStaticMeshComponent* StaticMesh2; // 0x2c0(0x08)
+	struct UStaticMeshComponent* StaticMesh1; // 0x2c8(0x08)
+	struct UStaticMeshComponent* StaticMesh7; // 0x2d0(0x08)
+	struct UStaticMeshComponent* StaticMesh; // 0x2d8(0x08)
+	struct UChildActorComponent* BP_NavCrawl; // 0x2e0(0x08)
+	struct UStaticMeshComponent* Door_Crawl_01; // 0x2e8(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x2f0(0x08)
+};
+

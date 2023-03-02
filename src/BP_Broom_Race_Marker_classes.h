@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_Broom_Race_Marker.BP_Broom_Race_Marker_C
 // Size: 0x320 (Inherited: 0x304)
-struct ABP_Broom_Race_Marker_C : ABP_Marker_Base_C {
+struct ABP_Broom_Race_Marker_C : ANone {
 	char pad_304[0x4]; // 0x304(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x308(0x08)
 	struct UBillboardComponent* Billboard; // 0x310(0x08)

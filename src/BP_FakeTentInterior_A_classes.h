@@ -1,0 +1,28 @@
+// BlueprintGeneratedClass BP_FakeTentInterior_A.BP_FakeTentInterior_A_C
+// Size: 0x300 (Inherited: 0x248)
+struct ABP_FakeTentInterior_A_C : AActor {
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_CastleDun_HayPile_B; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_Prop_Barrel_Breakable_B; // 0x250(0x08)
+	struct UStaticMeshComponent* SM_CastleDun_HayPile_A; // 0x258(0x08)
+	struct UStaticMeshComponent* SM_HW_Rug_Wrinked_A; // 0x260(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Int_BCProps_CloseCrate_Medium_A; // 0x268(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_CampB_5x_Plank_D; // 0x270(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Int_BCProps_CloseCrate_Medium_B; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_HW_DAO_TribalMask_E; // 0x280(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Int_BCProps_CloseCrate_Small_001_W; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_BCProps_Rope_002; // 0x290(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_Int_BCProps_CloseCrate_Small_002_W; // 0x298(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Int_BCProps_CloseCrate_Medium_C; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_OVR_TableSmall_01; // 0x2a8(0x08)
+	struct UStaticMeshComponent* SM_CampB_Int_Wall_01A_C; // 0x2b0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_CampB_Int_Wall_01A_B; // 0x2b8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Int_BCProps_Bench_Medium_001_D; // 0x2c0(0x08)
+	struct UPhysicalResponseComponent* BP_Crates_C_PhysicalResponse4; // 0x2c8(0x08)
+	struct UPhysicalResponseComponent* BP_Crates_C_PhysicalResponse6; // 0x2d0(0x08)
+	struct UPhysicalResponseComponent* BP_Crates_C_PhysicalResponse2; // 0x2d8(0x08)
+	struct UPhysicalResponseComponent* BP_Crates_C_PhysicalResponse5; // 0x2e0(0x08)
+	struct UPhysicalResponseComponent* BP_Crates_C_PhysicalResponse3; // 0x2e8(0x08)
+	struct USceneComponent* BP_Crates_C_SharedRoot; // 0x2f0(0x08)
+	struct USceneComponent* SharedRoot; // 0x2f8(0x08)
+};
+

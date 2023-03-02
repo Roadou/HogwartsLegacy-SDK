@@ -1,0 +1,10 @@
+// BlueprintGeneratedClass FL_VFX_WaterFX.FL_VFX_WaterFX_C
+// Size: 0x28 (Inherited: 0x28)
+struct UFL_VFX_WaterFX_C : UBlueprintFunctionLibrary {
+
+	void Stream Splash 01Params(struct UNiagaraComponent* VFX_NS_StreamSplash01, float EmissionRateScale, struct FVector EmissionVolume, float LifetimeScale, float MistOpacity, float SplashAngleScale, float SystemIntensity, float SystemOpacity, float SystemScale, float VelocityGravityScale, float VelocityScale, bool UseMist, bool UseSplashes, bool Activate, bool Deactivate, struct UObject* __WorldContext); // Function FL_VFX_WaterFX.FL_VFX_WaterFX_C.Stream Splash 01Params // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void WaterFall_RockHitParams(struct UNiagaraComponent* WaterFall_RockHit, float EmissionRateDroplets, float EmissionRateScale, struct FVector EmissionVolume, float LifetimeScale, float SystemIntensity, float SystemOpacity, float SystemScale, float VelocityScale, bool Activate, bool Deactivate, struct UObject* __WorldContext); // Function FL_VFX_WaterFX.FL_VFX_WaterFX_C.WaterFall_RockHitParams // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void Drips_1Params(struct UNiagaraComponent* VFX_NS_Drips_2, float EmissionRateScale, struct FVector EmissionVolume, float DripVelocity, float SystemIntensity, float SystemOpacity, float SystemScale, float DistanceDrips, bool UseDrips, bool UseSplashes, bool UseRipples, bool UseDebugPlane, bool Activate, bool Deactivate, struct UObject* __WorldContext); // Function FL_VFX_WaterFX.FL_VFX_WaterFX_C.Drips_1Params // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void Whirlpool 01Params(struct UNiagaraComponent* VFX_NS_Whirlpool01, struct FLinearColor Color, float EmissionRadius, float EmissionRateScale, float RiseVelocityScale, float OpacitySpray, float SystemIntensity, float SystemOpacity, float SystemScale, float SurfaceOffset, bool UseDynamicSurface, bool Activate, bool Deactivate, struct UObject* __WorldContext); // Function FL_VFX_WaterFX.FL_VFX_WaterFX_C.Whirlpool 01Params // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+};
+

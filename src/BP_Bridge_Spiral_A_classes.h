@@ -1,0 +1,28 @@
+// BlueprintGeneratedClass BP_Bridge_Spiral_A.BP_Bridge_Spiral_A_C
+// Size: 0x300 (Inherited: 0x248)
+struct ABP_Bridge_Spiral_A_C : AActor {
+	struct UDecalComponent* M_Cairn_Decal_Wetness_Inst_38; // 0x248(0x08)
+	struct UDecalComponent* MI_P_Decal_Stain6_36; // 0x250(0x08)
+	struct UDecalComponent* MI_P_Decal_Stain5_34; // 0x258(0x08)
+	struct UDecalComponent* MI_LargeDirt4_32; // 0x260(0x08)
+	struct UDecalComponent* MI_LargeDirt3_30; // 0x268(0x08)
+	struct UDecalComponent* MI_LargeDirt2_28; // 0x270(0x08)
+	struct UDecalComponent* MI_LargeDirt_26; // 0x278(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_F3_24; // 0x280(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_F2_22; // 0x288(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_F_20; // 0x290(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_B_18; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_bridge_brickswirl; // 0x2a0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_CastleRuins_2_Broken_C_a; // 0x2a8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_CastleRuins_2_Broken_B_c; // 0x2b0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_9SM_CastleRuins_2_Broken_B_a; // 0x2b8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_83SM_CastleRuins_2_Bricks_A_f; // 0x2c0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_9SM_CastleRuins_2_Broken_C_b; // 0x2c8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_112SM_CastleRuins_2_Bricks_A_d; // 0x2d0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_15SM_CastleRuins_2_Bricks_A_b; // 0x2d8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_12SM_CastleRuins_2_Brick_B_b; // 0x2e0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_CastleRuins_2_Brick_A_d; // 0x2e8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_CastleRuins_2_Brick_A_c; // 0x2f0(0x08)
+	struct USceneComponent* SharedRoot; // 0x2f8(0x08)
+};
+

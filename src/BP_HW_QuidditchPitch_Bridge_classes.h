@@ -1,0 +1,28 @@
+// BlueprintGeneratedClass BP_HW_QuidditchPitch_Bridge.BP_HW_QuidditchPitch_Bridge_C
+// Size: 0x300 (Inherited: 0x248)
+struct ABP_HW_QuidditchPitch_Bridge_C : AActor {
+	struct UStaticMeshComponent* SM_CampB_5x_Plank_C; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankB2; // 0x250(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankC2; // 0x258(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankC1; // 0x260(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankB1; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankA1; // 0x270(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankC; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankB; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankA; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_HW_QuidditchPitch_FlagsTower_B1; // 0x290(0x08)
+	struct UStaticMeshComponent* SM_HW_QuidditchPitch_FlagsTower_B; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_CastleDun_WoodenBeam_B1; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_CampB_RailB_C; // 0x2a8(0x08)
+	struct UStaticMeshComponent* SM_CampB_RailB_End_A; // 0x2b0(0x08)
+	struct UStaticMeshComponent* SM_CampB_RailC_End_A; // 0x2b8(0x08)
+	struct UStaticMeshComponent* SM_CampB_RailC_B; // 0x2c0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_CampB_RailB_B; // 0x2c8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_8SM_CampB_2m_PlankB; // 0x2d0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_11SM_CampB_5m_PlankA; // 0x2d8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_14SM_CampB_2m_PlankC; // 0x2e0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_CastleDun_WoodenBeam_A; // 0x2e8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_HW_Owlery_ArchSupportHalfA; // 0x2f0(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x2f8(0x08)
+};
+

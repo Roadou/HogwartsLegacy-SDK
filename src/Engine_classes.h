@@ -1928,7 +1928,7 @@ struct APlayerController : AController {
 	void ClientReturnToMainMenuWithTextReason(struct FText ReturnReason); // Function Engine.PlayerController.ClientReturnToMainMenuWithTextReason // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x59b05d0
 	void ClientReturnToMainMenu(struct FString ReturnReason); // Function Engine.PlayerController.ClientReturnToMainMenu // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x59b0530
 	void ClientRetryClientRestart(struct APawn* NewPawn); // Function Engine.PlayerController.ClientRetryClientRestart // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x153efe0
-	void ClientRestart(struct APawn* NewPawn); // Function Engine.PlayerController.ClientRestart // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x59b04a0
+	void ClientRestart(struct APawn* NewPawn); // Function Engine.PlayerController.ClientRestart // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x7ffc09959ba0
 	void ClientReset(); // Function Engine.PlayerController.ClientReset // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x1986d50
 	void ClientRepObjRef(struct UObject* Object); // Function Engine.PlayerController.ClientRepObjRef // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x59b0410
 	void ClientReceiveLocalizedMessage(struct ULocalMessage* Message, int32_t Switch, struct APlayerState* RelatedPlayerState_2, struct APlayerState* RelatedPlayerState_3, struct UObject* OptionalObject); // Function Engine.PlayerController.ClientReceiveLocalizedMessage // (Net|NetReliableNative|Event|Public|NetClient) // @ game+0x59b0270

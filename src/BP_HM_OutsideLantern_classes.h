@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_HM_OutsideLantern.BP_HM_OutsideLantern_C
 // Size: 0xb34 (Inherited: 0xaec)
-struct ABP_HM_OutsideLantern_C : ABP_LightFixture_Master_C {
+struct ABP_HM_OutsideLantern_C : ANone {
 	char pad_AEC[0x4]; // 0xaec(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0xaf0(0x08)
 	float Timeline_0_NewTrack_0_38A80C184B17A18882C753A4D21E2776; // 0xaf8(0x04)

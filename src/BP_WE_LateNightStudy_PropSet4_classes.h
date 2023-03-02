@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass BP_WE_LateNightStudy_PropSet4.BP_WE_LateNightStudy_PropSet4_C
+// Size: 0x328 (Inherited: 0x280)
+struct ABP_WE_LateNightStudy_PropSet4_C : AWorldEventActor {
+	struct UStaticMeshComponent* SM_HM_Candlestick_A; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_HW_Scrolls_A; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_HW_L_New_Book_G_3; // 0x290(0x08)
+	struct UStaticMeshComponent* SM_HW_LetterCluster_D; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_HM_Beast_Cage_A; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_WE_DeadSpider; // 0x2a8(0x08)
+	struct UStaticMeshComponent* SM_HebrideanBlackDragonClaw; // 0x2b0(0x08)
+	struct UStaticMeshComponent* SM_HM_BeastHorn_1B; // 0x2b8(0x08)
+	struct UStaticMeshComponent* SM_HM_InkBottleWithQuills_A; // 0x2c0(0x08)
+	struct UStaticMeshComponent* SM_GobMine_Spider_Acromantula_Dead_B; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_HM_Beast_Cage_A1; // 0x2d0(0x08)
+	struct UStaticMeshComponent* SM_HW_OpenBook_A_LOD; // 0x2d8(0x08)
+	struct UStaticMeshComponent* SM_HW_L_BookStand; // 0x2e0(0x08)
+	struct UStaticMeshComponent* SM_HM_BeastHorn_Bucket_B; // 0x2e8(0x08)
+	struct UPointLightComponent* PointLight; // 0x2f0(0x08)
+	struct UParticleSystemComponent* P_Candleflame; // 0x2f8(0x08)
+	struct UDecalComponent* Dirt_Decal_01; // 0x300(0x08)
+	struct UStaticMeshComponent* SM_Cairn_SpineCandle_Low_C; // 0x308(0x08)
+	struct UStaticMeshComponent* SM_HW_RugRoundB; // 0x310(0x08)
+	struct UStaticMeshComponent* SM_HW_L_New_Book_F_3; // 0x318(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x320(0x08)
+};
+

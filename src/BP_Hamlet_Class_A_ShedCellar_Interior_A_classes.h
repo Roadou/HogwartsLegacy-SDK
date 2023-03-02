@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass BP_Hamlet_Class_A_ShedCellar_Interior_A.BP_Hamlet_Class_A_ShedCellar_Interior_A_C
+// Size: 0x2f8 (Inherited: 0x248)
+struct ABP_Hamlet_Class_A_ShedCellar_Interior_A_C : AActor {
+	struct UDecalComponent* MI_HW_Darkmosslichen3_19; // 0x248(0x08)
+	struct UDecalComponent* MI_P_Decal_Puddle_17; // 0x250(0x08)
+	struct UDecalComponent* MI_HW_Decal_Wood_WornStep01_15; // 0x258(0x08)
+	struct UDecalComponent* MI_HW_Darkmosslichen2_13; // 0x260(0x08)
+	struct UDecalComponent* MI_HW_Darkmosslichen1_11; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_HamletA_Shed_ScrollsPaperLetters_Merged; // 0x270(0x08)
+	struct UStaticMeshComponent* SM_HamletA_Shed_PotionsIngredients_Merged; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_HamletA_Shed_Books_Merged; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_HW_DAO_WoodenMaiden; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_Int_CastleDun_TableShort_W; // 0x290(0x08)
+	struct UStaticMeshComponent* SM_CastleDun_Bench_A; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_BCProps_FenceClothB_B; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_CastleDun_Bookcase_B; // 0x2a8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_HM_3Broom_Bottle_B; // 0x2b0(0x08)
+	struct UStaticMeshComponent* SM_BCProps_FloorCloth_E; // 0x2b8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_Cairn_Bone_Skull_C; // 0x2c0(0x08)
+	struct UStaticMeshComponent* SM_CastleDun_Bookcase_A; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_BCProps_FenceClothD_C; // 0x2d0(0x08)
+	struct UChildActorComponent* BP_Cairn_SpineCandle_B_ChildActorComponent; // 0x2d8(0x08)
+	struct UChildActorComponent* BP_Cairn_SpineCandle_C_ChildActorComponent; // 0x2e0(0x08)
+	struct UChildActorComponent* BP_Cairn_SpineCandle_A_ChildActorComponent; // 0x2e8(0x08)
+	struct USceneComponent* SharedRoot; // 0x2f0(0x08)
+};
+

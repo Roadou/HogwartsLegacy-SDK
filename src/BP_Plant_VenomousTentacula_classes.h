@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_Plant_VenomousTentacula.BP_Plant_VenomousTentacula_C
 // Size: 0x400 (Inherited: 0x3c4)
-struct ABP_Plant_VenomousTentacula_C : ABP_Herb_C {
+struct ABP_Plant_VenomousTentacula_C : ANone {
 	char pad_3C4[0x4]; // 0x3c4(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x3c8(0x08)
 	struct USkeletalMeshComponent* SkeletalBody; // 0x3d0(0x08)

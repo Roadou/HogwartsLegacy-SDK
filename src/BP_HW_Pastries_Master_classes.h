@@ -3,9 +3,9 @@
 struct ABP_HW_Pastries_Master_C : ABP_HW_PartialBody_Interaction_C {
 	char pad_2F4[0x4]; // 0x2f4(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x2f8(0x08)
-	struct USceneComponent* SpawnLocation3; // 0x300(0x08)
-	struct USceneComponent* SpawnLocation2; // 0x308(0x08)
-	struct USceneComponent* SpawnLocation1; // 0x310(0x08)
+	struct USceneComponent* spawnLocation3; // 0x300(0x08)
+	struct USceneComponent* spawnLocation2; // 0x308(0x08)
+	struct USceneComponent* spawnLocation1; // 0x310(0x08)
 	struct UStaticMeshComponent* StaticMesh; // 0x318(0x08)
 	struct TArray<struct AActor*> PastriesSpawned; // 0x320(0x10)
 	struct AActor* PastryToSpawn; // 0x330(0x08)

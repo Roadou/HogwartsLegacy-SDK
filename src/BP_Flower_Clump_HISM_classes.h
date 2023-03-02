@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass BP_Flower_Clump_HISM.BP_Flower_Clump_HISM_C
+// Size: 0x2f0 (Inherited: 0x248)
+struct ABP_Flower_Clump_HISM_C : AActor {
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_S_FlowerD2; // 0x248(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_S_FlowerE; // 0x250(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_9SM_BCProps_Ivy_Wall_Base_A; // 0x258(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_BCProps_Ivy_Wall_Base_B; // 0x260(0x08)
+	struct UStaticMeshComponent* SM_BCProps_Ivy_Wall_Hanging_B; // 0x268(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_7SM_Ivy_Kit_S; // 0x270(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_BCProps_Ivy_Wall_Hanging_C; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_BCProps_Ivy_Wall_Single_D; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_Flower_Clump; // 0x288(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_Ivy_Kit_OL_V; // 0x290(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_S_FlowerD1; // 0x298(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_7SM_Ivy_Kit_T; // 0x2a0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_Ivy_MeshDecal_01; // 0x2a8(0x08)
+	struct UStaticMeshComponent* SM_Ivy_MeshDecal_02; // 0x2b0(0x08)
+	struct UStaticMeshComponent* SM_Ivy_MeshDecal_05; // 0x2b8(0x08)
+	struct UStaticMeshComponent* SM_Ivy_MeshDecal_06; // 0x2c0(0x08)
+	struct UStaticMeshComponent* SM_Ivy_MeshDecal_07; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_Ivy_MeshDecal_08; // 0x2d0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_4SM_Mossclump_03; // 0x2d8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_8SM_S_FlowerB1; // 0x2e0(0x08)
+	struct USceneComponent* SharedRoot; // 0x2e8(0x08)
+};
+

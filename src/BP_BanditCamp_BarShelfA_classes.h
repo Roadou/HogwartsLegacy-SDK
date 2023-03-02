@@ -1,0 +1,25 @@
+// BlueprintGeneratedClass BP_BanditCamp_BarShelfA.BP_BanditCamp_BarShelfA_C
+// Size: 0x2e8 (Inherited: 0x248)
+struct ABP_BanditCamp_BarShelfA_C : AActor {
+	struct UStaticMeshComponent* SM_BanditCamp_BarShelfA_Merged_03; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_BanditCamp_BarShelfA_Merged_01; // 0x250(0x08)
+	struct UStaticMeshComponent* SM_BanditCamp_BarShelfA_Merged_02; // 0x258(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankB; // 0x260(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankC; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_CampB_5m_PlankD; // 0x270(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_CampB_5m_PostA; // 0x278(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse10; // 0x280(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse9; // 0x288(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse8; // 0x290(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse7; // 0x298(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse6; // 0x2a0(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse5; // 0x2a8(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse4; // 0x2b0(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse3; // 0x2b8(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse2; // 0x2c0(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse1; // 0x2c8(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse; // 0x2d0(0x08)
+	struct USceneComponent* BP_Kitchen_Shelving_A_SharedRoot; // 0x2d8(0x08)
+	struct USceneComponent* SharedRoot; // 0x2e0(0x08)
+};
+

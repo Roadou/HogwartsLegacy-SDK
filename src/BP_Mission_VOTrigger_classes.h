@@ -6,7 +6,7 @@ struct ABP_Mission_VOTrigger_C : AActor {
 	struct UBoxComponent* Box; // 0x258(0x08)
 	struct UStaticMeshComponent* VOTrigger; // 0x260(0x08)
 	struct USceneComponent* DefaultSceneRoot; // 0x268(0x08)
-	enum class E_Hog_CamTriggerShape TriggerShape; // 0x270(0x01)
+	enum class None TriggerShape; // 0x270(0x01)
 	char pad_271[0x7]; // 0x271(0x07)
 	struct TArray<struct FMissionName> Mission_NewSetup; // 0x278(0x10)
 	struct TArray<struct FString> StepNickname; // 0x288(0x10)

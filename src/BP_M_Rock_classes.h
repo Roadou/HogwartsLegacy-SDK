@@ -4,7 +4,7 @@ struct ABP_M_Rock_C : AActor {
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x248(0x08)
 	struct UStaticMeshComponent* Rock; // 0x250(0x08)
 	struct UObjectStateComponent* ObjectState; // 0x258(0x08)
-	enum class EEnvironment Environment; // 0x260(0x01)
+	enum class None Environment; // 0x260(0x01)
 	char pad_261[0x3]; // 0x261(0x03)
 	int32_t PropIndex; // 0x264(0x04)
 	struct TMap<struct TSoftObjectPtr<UStaticMesh>, bool> MeshSelect; // 0x268(0x50)

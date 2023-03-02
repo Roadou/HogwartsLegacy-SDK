@@ -8,7 +8,7 @@ struct ABP_World_Event_Spline_Mover_C : ASplineMover {
 	struct USkeletalMesh* CreatureMesh; // 0x2d0(0x08)
 	struct UWorldEventSpline* WorldEventSpline; // 0x2d8(0x08)
 	struct UObject* AnimBlueprint; // 0x2e0(0x08)
-	struct UPrimitiveComponent* collisionVolume; // 0x2e8(0x08)
+	struct UPrimitiveComponent* CollisionVolume; // 0x2e8(0x08)
 	struct AWorldEventLocationActor* WorldEventLocationActor; // 0x2f0(0x08)
 	struct AWorldEventLocationActor* TestWorldEventLocationActor; // 0x2f8(0x08)
 

@@ -1,0 +1,100 @@
+// BlueprintGeneratedClass BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C
+// Size: 0x4c8 (Inherited: 0x248)
+struct ABP_Sanc_Trash_BoxPile_01A_C : AActor {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_HW_L_BookStack_Small_D; // 0x250(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium3; // 0x258(0x08)
+	struct UStaticMeshComponent* SM_HW_Telescope_C1; // 0x260(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Medium_001_W; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_HW_Scale_A2; // 0x270(0x08)
+	struct UStaticMeshComponent* SM_HM_Bench_A; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C21; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Red_Long3; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C25; // 0x290(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C26; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Large_001_W7; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C27; // 0x2a8(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse1; // 0x2b0(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_LG_metal; // 0x2b8(0x08)
+	struct UStaticMeshComponent* SM_HW_L_BookStack_Medium_A6; // 0x2c0(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_LG_Red_Metal; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_HM_GEN_Wardrobe_B; // 0x2d0(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse2; // 0x2d8(0x08)
+	struct UStaticMeshComponent* SM_HM_Gladrags_Corner_Dresser2; // 0x2e0(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium_Old_Metal; // 0x2e8(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C17; // 0x2f0(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Medium_003_W_LOD4; // 0x2f8(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_small_metal; // 0x300(0x08)
+	struct UStaticMeshComponent* SM_HM_Quill_Desk; // 0x308(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Medium_B; // 0x310(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Old_Long; // 0x318(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_Long4; // 0x320(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_LG2; // 0x328(0x08)
+	struct UStaticMeshComponent* SM_HM_Wardrobes_D; // 0x330(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Large_001_W6; // 0x338(0x08)
+	struct UStaticMeshComponent* SM_HM_Quill_Desk3; // 0x340(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Large_001_W8; // 0x348(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Medium_003_W_LOD2; // 0x350(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Red_Long2; // 0x358(0x08)
+	struct UStaticMeshComponent* SM_HM_2Hand_Cabinet; // 0x360(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Red_Long; // 0x368(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Long_Old_Metal; // 0x370(0x08)
+	struct UStaticMeshComponent* SM_HM_Quill_Shelf_B; // 0x378(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_Bench_Long_001_D; // 0x380(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C19; // 0x388(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse; // 0x390(0x08)
+	struct UStaticMeshComponent* Collision; // 0x398(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium_Metal2; // 0x3a0(0x08)
+	struct UStaticMeshComponent* SM_HM_GEN_Chair_E; // 0x3a8(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_Long6; // 0x3b0(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_Long5; // 0x3b8(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium_Old_Metal2; // 0x3c0(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_BroomStand_001_W_500; // 0x3c8(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C28; // 0x3d0(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium2; // 0x3d8(0x08)
+	struct UStaticMeshComponent* SM_HM_Gladrags_Corner_Dresser; // 0x3e0(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C24; // 0x3e8(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C23; // 0x3f0(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C22; // 0x3f8(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_Long; // 0x400(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_LG_Red_Metal5; // 0x408(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium_Red_Metal; // 0x410(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Small_Blue_Metal; // 0x418(0x08)
+	struct UStaticMeshComponent* SM_HW_L_BookStack_Medium_A7; // 0x420(0x08)
+	struct UStaticMeshComponent* SM_HW_L_BookStack_Medium_A5; // 0x428(0x08)
+	struct UStaticMeshComponent* SM_BCProps_CloseCrate_Medium_D; // 0x430(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C20; // 0x438(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C18; // 0x440(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C16; // 0x448(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C15; // 0x450(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C14; // 0x458(0x08)
+	struct UStaticMeshComponent* SM_HM_3Broom_Chair_C13; // 0x460(0x08)
+	struct UStaticMeshComponent* SM_Goblin_Crates_Medium_Blue_Metal; // 0x468(0x08)
+	struct UStaticMeshComponent* SM_OVR_ChairWood_02; // 0x470(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Old_Long2; // 0x478(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_Blue_LG; // 0x480(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Large_002_W; // 0x488(0x08)
+	struct UStaticMeshComponent* SM_HW_HourGlass_D2; // 0x490(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_LG_Old_Metal; // 0x498(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Large_001_W; // 0x4a0(0x08)
+	struct UStaticMeshComponent* SM_Int_BCProps_CloseCrate_Medium_003_W_LOD; // 0x4a8(0x08)
+	struct UStaticMeshComponent* SM_GoblinCrates_LG; // 0x4b0(0x08)
+	struct USceneComponent* Scene; // 0x4b8(0x08)
+	struct UAkAudioEvent* AkEvent; // 0x4c0(0x08)
+
+	struct TArray<struct FTransfigurationResource> GetAdditionalItemsReturned(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.GetAdditionalItemsReturned // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	bool IsObjectContextValidForTransformation(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.IsObjectContextValidForTransformation // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	bool IsObjectContextValidForVanishment(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.IsObjectContextValidForVanishment // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void DeactivateObject(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.DeactivateObject // (Event|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void FinalizeInitialAnimationState(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.FinalizeInitialAnimationState // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectConjured(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectConjured // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectStreamedSpawnInConfirmed(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectStreamedSpawnInConfirmed // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectTransformationCancelled(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectTransformationCancelled // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectTransformationConfirmed(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectTransformationConfirmed // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectTransformationStarted(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectTransformationStarted // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ObjectVanished(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectVanished // (Event|Public|BlueprintEvent) // @ game+0x38a7480
+	void ReactivateObject(); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ReactivateObject // (Event|Public|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void ObjectPhysicalResponseImpact(float ImpactIntensity, struct FName SpellName, struct FName ResponseConfigName, struct FVector& ImpactLocation); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ObjectPhysicalResponseImpact // (Event|Public|HasOutParms|BlueprintEvent) // @ game+0x38a7480
+	void ExecuteUbergraph_BP_Sanc_Trash_BoxPile_01A(int32_t EntryPoint); // Function BP_Sanc_Trash_BoxPile_01A.BP_Sanc_Trash_BoxPile_01A_C.ExecuteUbergraph_BP_Sanc_Trash_BoxPile_01A // (Final|UbergraphFunction|HasDefaults) // @ game+0x38a7480
+};
+

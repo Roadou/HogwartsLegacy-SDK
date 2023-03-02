@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass BP_Shelving_GoblinShelf_A.BP_Shelving_GoblinShelf_A_C
+// Size: 0x378 (Inherited: 0x2d0)
+struct ABP_Shelving_GoblinShelf_A_C : ABP_SendTargetCluster_C {
+	struct UChildActorComponent* BP_Int_Goblin_Crates_Blue_Medium_W1; // 0x2d0(0x08)
+	struct UChildActorComponent* BP_Cav_DestructiblePot_03; // 0x2d8(0x08)
+	struct UChildActorComponent* BP_Int_GoblinCrates_Small_Old_W1; // 0x2e0(0x08)
+	struct UChildActorComponent* BP_Int_GoblinCrates_small_Red_W1; // 0x2e8(0x08)
+	struct UStaticMeshComponent* E; // 0x2f0(0x08)
+	struct UStaticMeshComponent* SM_BCProps_RopeEnd_B; // 0x2f8(0x08)
+	struct UStaticMeshComponent* SM_WPN_GOB_BattleAxe02; // 0x300(0x08)
+	struct UStaticMeshComponent* SM_WPN_GOB_BattleAxe01; // 0x308(0x08)
+	struct UStaticMeshComponent* SM_BCProps_RopeKnot_A2; // 0x310(0x08)
+	struct UStaticMeshComponent* SM_BCProps_RopeKnot_A1; // 0x318(0x08)
+	struct UStaticMeshComponent* SM_BCProps_RopeKnot_A; // 0x320(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse7; // 0x328(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse5; // 0x330(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse4; // 0x338(0x08)
+	struct UPhysicalResponseComponent* PhysicalResponse3; // 0x340(0x08)
+	struct UStaticMeshComponent* StaticMeshComponent9; // 0x348(0x08)
+	struct UStaticMeshComponent* SM_BCProps_Eyelet_A; // 0x350(0x08)
+	struct UStaticMeshComponent* SM_BCProps_Eyelet_A1; // 0x358(0x08)
+	struct UStaticMeshComponent* StaticMeshComponent8; // 0x360(0x08)
+	struct UStaticMeshComponent* StaticMeshComponent4; // 0x368(0x08)
+	struct UStaticMeshComponent* StaticMeshComponent7; // 0x370(0x08)
+};
+

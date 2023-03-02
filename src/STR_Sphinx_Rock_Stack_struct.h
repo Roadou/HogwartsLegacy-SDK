@@ -1,0 +1,13 @@
+// UserDefinedStruct STR_Sphinx_Rock_Stack.STR_Sphinx_Rock_Stack
+// Size: 0x130 (Inherited: 0x00)
+struct FSTR_Sphinx_Rock_Stack {
+	struct FTransform BaseLOC_11_51F433F14BAE1706833DFF90355786C5; // 0x00(0x30)
+	bool bMoveStack_32_41CC2E4E43A78F320FBE30A2FFD0007E; // 0x30(0x01)
+	char pad_31[0xf]; // 0x31(0x0f)
+	struct FTransform Rock1LOC_17_F77A43164FB62D722325F4BE95704D45; // 0x40(0x30)
+	struct FTransform Rock2LOC_26_7839602B4457F8B9F3CE84847DD1A079; // 0x70(0x30)
+	struct FTransform Rock3LOC_27_233F5079475910D63E839B8654FD178E; // 0xa0(0x30)
+	struct FTransform Rock4LOC_28_7EC330BC4A86D07313FA9B9AA6944045; // 0xd0(0x30)
+	struct FTransform Rock5LOC_29_249DAEE043BF517D2871FEBE6D8DE017; // 0x100(0x30)
+};
+

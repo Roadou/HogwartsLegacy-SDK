@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_Station_Stand_Conversation_T3_3p.BP_Station_Stand_Conversation_T3_3p_C
 // Size: 0x478 (Inherited: 0x468)
-struct ABP_Station_Stand_Conversation_T3_3p_C : ABP_Station_Propless3p_C {
+struct ABP_Station_Stand_Conversation_T3_3p_C : ANone {
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x468(0x08)
 	struct UStationArchitectComponent* StationArchitect; // 0x470(0x08)
 

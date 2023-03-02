@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass CO_BB_Feature_Hamlet_Halkirk.CO_BB_Feature_Hamlet_Halkirk_C
+// Size: 0x250 (Inherited: 0x250)
+struct ACO_BB_Feature_Hamlet_Halkirk_C : ALevelScriptActor {
+};
+

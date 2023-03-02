@@ -1,0 +1,5 @@
+// AblAbilityBlueprintGeneratedClass ABL_NPC_RCT_BlackParticleExplodeNoDeath_StumbleThenKneel.ABL_NPC_RCT_BlackParticleExplodeNoDeath_StumbleThenKneel_C
+// Size: 0xe0 (Inherited: 0xe0)
+struct UABL_NPC_RCT_BlackParticleExplodeNoDeath_StumbleThenKneel_C : UAblReactionAbility {
+};
+

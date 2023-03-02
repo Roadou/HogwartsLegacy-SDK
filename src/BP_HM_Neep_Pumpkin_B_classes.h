@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_HM_Neep_Pumpkin_B.BP_HM_Neep_Pumpkin_B_C
 // Size: 0x380 (Inherited: 0x357)
-struct ABP_HM_Neep_Pumpkin_B_C : ABP_Breakable_Persistent_C {
+struct ABP_HM_Neep_Pumpkin_B_C : ANone {
 	char pad_357[0x1]; // 0x357(0x01)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x358(0x08)
 	struct UAkComponent* Ak; // 0x360(0x08)

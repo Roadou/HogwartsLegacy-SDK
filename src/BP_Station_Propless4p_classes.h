@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_Station_Propless4p.BP_Station_Propless4p_C
 // Size: 0x498 (Inherited: 0x371)
-struct ABP_Station_Propless4p_C : ABP_Station_C {
+struct ABP_Station_Propless4p_C : ANone {
 	char pad_371[0x7]; // 0x371(0x07)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x378(0x08)
 	struct UStaticMeshComponent* ParentProp; // 0x380(0x08)

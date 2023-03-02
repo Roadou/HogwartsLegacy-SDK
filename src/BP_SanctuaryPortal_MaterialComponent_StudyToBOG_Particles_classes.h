@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass BP_SanctuaryPortal_MaterialComponent_StudyToBOG_Particles.BP_SanctuaryPortal_MaterialComponent_StudyToBOG_Particles_C
+// Size: 0x320 (Inherited: 0x320)
+struct UBP_SanctuaryPortal_MaterialComponent_StudyToBOG_Particles_C : UBP_SanctuaryPortal_MaterialComponent_StudyToBOG_C {
+};
+

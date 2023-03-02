@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_HM_SwingingLight_C.BP_HM_SwingingLight_C_C
 // Size: 0xaf8 (Inherited: 0xaec)
-struct ABP_HM_SwingingLight_C_C : ABP_LightFixture_Master_C {
+struct ABP_HM_SwingingLight_C_C : ANone {
 	char pad_AEC[0x4]; // 0xaec(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0xaf0(0x08)
 

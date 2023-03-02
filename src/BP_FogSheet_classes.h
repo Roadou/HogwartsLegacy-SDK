@@ -15,7 +15,7 @@ struct ABP_FogSheet_C : AActor {
 	float NoiseSize; // 0x294(0x04)
 	float NoiseProjectionDistance; // 0x298(0x04)
 	float DepthFadeDistance; // 0x29c(0x04)
-	struct UStaticMesh* static mesh; // 0x2a0(0x08)
+	struct UStaticMesh* Static Mesh; // 0x2a0(0x08)
 	struct UTexture* Fog texture; // 0x2a8(0x08)
 	bool UseWindOffset; // 0x2b0(0x01)
 

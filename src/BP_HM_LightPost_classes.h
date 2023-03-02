@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_HM_LightPost.BP_HM_LightPost_C
 // Size: 0xb30 (Inherited: 0xaec)
-struct ABP_HM_LightPost_C : ABP_LightFixture_Master_C {
+struct ABP_HM_LightPost_C : ANone {
 	char pad_AEC[0x4]; // 0xaec(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0xaf0(0x08)
 	struct UPointLightComponent* Point Light_1; // 0xaf8(0x08)

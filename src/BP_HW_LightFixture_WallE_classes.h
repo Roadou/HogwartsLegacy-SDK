@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_HW_LightFixture_WallE.BP_HW_LightFixture_WallE_C
 // Size: 0xb00 (Inherited: 0xaec)
-struct ABP_HW_LightFixture_WallE_C : ABP_LightFixture_Master_C {
+struct ABP_HW_LightFixture_WallE_C : ANone {
 	char pad_AEC[0x4]; // 0xaec(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0xaf0(0x08)
 	struct UMaterialInterface* LightFuntion; // 0xaf8(0x08)

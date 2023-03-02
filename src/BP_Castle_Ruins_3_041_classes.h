@@ -1,0 +1,25 @@
+// BlueprintGeneratedClass BP_Castle_Ruins_3_041.BP_Castle_Ruins_3_041_C
+// Size: 0x2e8 (Inherited: 0x248)
+struct ABP_Castle_Ruins_3_041_C : AActor {
+	struct UStaticMeshComponent* SM_MERGED_SM_CastleRuins_3_Window_J_StaticMeshComponent0; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_MERGED_SM_CastleRuins_3_Broken_D_StaticMeshComponent0; // 0x250(0x08)
+	struct UStaticMeshComponent* SM_CastleRuins_3_Wall_Z_c_StaticMeshComponent0; // 0x258(0x08)
+	struct UStaticMeshComponent* SM_CastleRuins_3_Relief_Combine_B_StaticMeshComponent0; // 0x260(0x08)
+	struct UStaticMeshComponent* SM_CastleRuins_3_Relief_Combine_A_StaticMeshComponent0; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_CastleRuins_3_Broken_N_b_StaticMeshComponent0; // 0x270(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent5; // 0x278(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent4; // 0x280(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent3; // 0x288(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent2; // 0x290(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent1; // 0x298(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Wetness_drips_2_NewDecalComponent; // 0x2a0(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Decal_SootSmudge_5_NewDecalComponent1; // 0x2a8(0x08)
+	struct UDecalComponent* MI_Castle_Ruin1_Decal_SootSmudge_5_NewDecalComponent; // 0x2b0(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_G_NewDecalComponent4; // 0x2b8(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_G_NewDecalComponent3; // 0x2c0(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_G_NewDecalComponent2; // 0x2c8(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_G_NewDecalComponent1; // 0x2d0(0x08)
+	struct UDecalComponent* MI_CastleDun_Decal_Lichen_Test_G_NewDecalComponent; // 0x2d8(0x08)
+	struct USceneComponent* SharedRoot; // 0x2e0(0x08)
+};
+

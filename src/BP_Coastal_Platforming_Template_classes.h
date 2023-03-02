@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass BP_Coastal_Platforming_Template.BP_Coastal_Platforming_Template_C
+// Size: 0x320 (Inherited: 0x248)
+struct ABP_Coastal_Platforming_Template_C : AActor {
+	struct UStaticMeshComponent* SM_OL_Platform_A214; // 0x248(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A219; // 0x250(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_4m_01_Bslt; // 0x258(0x08)
+	struct UChildActorComponent* BP_5m_Ramp_90d_01; // 0x260(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_4m_02_Bslt6; // 0x268(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A20; // 0x270(0x08)
+	struct UStaticMeshComponent* StaticMeshComponent032; // 0x278(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_C4; // 0x280(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_2m_02_Bslt; // 0x288(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A216; // 0x290(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_4m_02_Bslt4; // 0x298(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A215; // 0x2a0(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_B3; // 0x2a8(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_B1; // 0x2b0(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_4m_02_Bslt3; // 0x2b8(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A17; // 0x2c0(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A19; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_OL_Platform_A213; // 0x2d0(0x08)
+	struct UChildActorComponent* BP_ClimbingWall_4m_02_Bslt; // 0x2d8(0x08)
+	struct UChildActorComponent* BP_Platforming_Marker; // 0x2e0(0x08)
+	struct USceneComponent* SharedRoot; // 0x2e8(0x08)
+	struct FTransform Climb NavLink; // 0x2f0(0x30)
+};
+

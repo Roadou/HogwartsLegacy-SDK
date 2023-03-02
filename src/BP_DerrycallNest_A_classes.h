@@ -1,0 +1,27 @@
+// BlueprintGeneratedClass BP_DerrycallNest_A.BP_DerrycallNest_A_C
+// Size: 0x2f8 (Inherited: 0x248)
+struct ABP_DerrycallNest_A_C : AActor {
+	struct UChildActorComponent* ChildActor; // 0x248(0x08)
+	struct UDecalComponent* MM_P_Decal_Wetness_drips3; // 0x250(0x08)
+	struct UDecalComponent* M_Cav_Decal_ChalkStain_7; // 0x258(0x08)
+	struct UDecalComponent* MI_cav_Decal_Mud2; // 0x260(0x08)
+	struct UDecalComponent* MI_CavernDun_Decal_Algae_A2; // 0x268(0x08)
+	struct UDecalComponent* MM_P_Decal_Wetness_drips2; // 0x270(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_21SM_Cairn_CoffinBroken_C; // 0x278(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_Cairn_CoffinBroken_E; // 0x280(0x08)
+	struct UStaticMeshComponent* SM_Cairn_CoffinBroken_F; // 0x288(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_Cairn_RockPile_A_001; // 0x290(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_9SM_Cairn_RockSM_K; // 0x298(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_Cairn_StoneDebris03; // 0x2a0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_5SM_CaveRoots_Set1_F; // 0x2a8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_OL_CliffRock_B9_2; // 0x2b0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_13SM_CliffTop_Med_D; // 0x2b8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_2SM_DeadLeafThin_01_Master; // 0x2c0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_6SM_GrassMain; // 0x2c8(0x08)
+	struct UStaticMeshComponent* SM_Juniper_A; // 0x2d0(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_20SM_DiricawlFeather_A; // 0x2d8(0x08)
+	struct UHierarchicalInstancedStaticMeshComponent* HISM_3SM_DiricawlNest_B; // 0x2e0(0x08)
+	struct USceneComponent* SharedRoot; // 0x2e8(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x2f0(0x08)
+};
+

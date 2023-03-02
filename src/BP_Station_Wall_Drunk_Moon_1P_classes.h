@@ -1,6 +1,6 @@
 // BlueprintGeneratedClass BP_Station_Wall_Drunk_Moon_1P.BP_Station_Wall_Drunk_Moon_1P_C
 // Size: 0x428 (Inherited: 0x40c)
-struct ABP_Station_Wall_Drunk_Moon_1P_C : ABP_Station_Propless1p_C {
+struct ABP_Station_Wall_Drunk_Moon_1P_C : ANone {
 	char pad_40C[0x4]; // 0x40c(0x04)
 	struct FPointerToUberGraphFrame UberGraphFrame; // 0x410(0x08)
 	struct UStationArchitectComponent* StationArchitect; // 0x418(0x08)

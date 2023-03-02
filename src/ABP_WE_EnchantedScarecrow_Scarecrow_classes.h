@@ -1,0 +1,92 @@
+// AnimBlueprintGeneratedClass ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C
+// Size: 0xea7 (Inherited: 0x2c0)
+struct UABP_WE_EnchantedScarecrow_Scarecrow_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x2c0(0x08)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x2c8(0x30)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_26; // 0x2f8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_25; // 0x320(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_24; // 0x348(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_23; // 0x370(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_22; // 0x398(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_21; // 0x3c0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_20; // 0x3e8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_19; // 0x410(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_18; // 0x438(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_17; // 0x460(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_16; // 0x488(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_15; // 0x4b0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_14; // 0x4d8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_13; // 0x500(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_12; // 0x528(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_11; // 0x550(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_10; // 0x578(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_9; // 0x5a0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_8; // 0x5c8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_7; // 0x5f0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; // 0x618(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; // 0x640(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; // 0x668(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; // 0x690(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; // 0x6b8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; // 0x6e0(0x28)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_10; // 0x708(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_10; // 0x788(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9; // 0x7b8(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_9; // 0x838(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_8; // 0x868(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_8; // 0x8e8(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_7; // 0x918(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_7; // 0x998(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_6; // 0x9c8(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_6; // 0xa48(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5; // 0xa78(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; // 0xaf8(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; // 0xb28(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; // 0xba8(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; // 0xbd8(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; // 0xc58(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; // 0xc88(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; // 0xd08(0x30)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; // 0xd38(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; // 0xdb8(0x30)
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; // 0xde8(0xb0)
+	struct ABP_WE_EnchantedScarecrow_C* OwnerBP; // 0xe98(0x08)
+	bool IsStartled; // 0xea0(0x01)
+	bool IsTired; // 0xea1(0x01)
+	bool IsAnnoyed; // 0xea2(0x01)
+	bool IsShooing; // 0xea3(0x01)
+	bool IsShooFinished; // 0xea4(0x01)
+	bool IsShooSuccessful; // 0xea5(0x01)
+	bool ShouldTurn; // 0xea6(0x01)
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_1CA066D44E7FF9928CAF5786889EECDD(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_1CA066D44E7FF9928CAF5786889EECDD // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_A299FFA74AC321C0F4AD13BAF2515B5A(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_A299FFA74AC321C0F4AD13BAF2515B5A // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_8F779CAA4C9E9C396FE332A412D1DEFD(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_8F779CAA4C9E9C396FE332A412D1DEFD // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_BD86A3564AABC04246B62CB8B4FB116D(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_BD86A3564AABC04246B62CB8B4FB116D // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_9A58B4EE4B703DB8B6C9A6B7EB64FA99(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_9A58B4EE4B703DB8B6C9A6B7EB64FA99 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_B51F6E0C4D028716C22BA48D85F3F8AA(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_B51F6E0C4D028716C22BA48D85F3F8AA // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_73DCA9B24808EA36CEB4B1A07ECC4E83(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_73DCA9B24808EA36CEB4B1A07ECC4E83 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_605A72BC4F501ED4F762EBAC0F3ECF08(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_605A72BC4F501ED4F762EBAC0F3ECF08 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_0C70428E4C04F52D4949EC9B6B957867(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_0C70428E4C04F52D4949EC9B6B957867 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_B07E632E4B7D4303EE1631852FBEAC51(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_B07E632E4B7D4303EE1631852FBEAC51 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_626B9E734D8F6A6D1AE6BD94833B8DC6(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_626B9E734D8F6A6D1AE6BD94833B8DC6 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_52C9C57F447DB02917EE87A3C420C854(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_52C9C57F447DB02917EE87A3C420C854 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_AF4BAB0E4C1DB15F5A2CF495C68460AD(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_AF4BAB0E4C1DB15F5A2CF495C68460AD // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_3C66672E4671A9E15D245E9DD6482C37(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_3C66672E4671A9E15D245E9DD6482C37 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_493C02994CA35F4A1E3DE28DAC260E9E(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_493C02994CA35F4A1E3DE28DAC260E9E // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_CD8348684DE6BE0AFC4327847802C759(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_CD8348684DE6BE0AFC4327847802C759 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_D00B0B964C35BCCD738E8685DAA95B65(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_D00B0B964C35BCCD738E8685DAA95B65 // (BlueprintEvent) // @ game+0x38a7480
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_78CCBD274573E59F277EDAAD9A3F4744(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow_AnimGraphNode_TransitionResult_78CCBD274573E59F277EDAAD9A3F4744 // (BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_ResetAnnoyed(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_ResetAnnoyed // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_ResetShoo(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_ResetShoo // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_ResetStartled(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_ResetStartled // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_ResetTired(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_ResetTired // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_CheckSuccess(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_CheckSuccess // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void ReceiveOwnerInfo(struct ABP_WE_EnchantedScarecrow_C* OwnerBP); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.ReceiveOwnerInfo // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_CheckFailure(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_CheckFailure // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_ResetTurn(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_ResetTurn // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void AnimNotify_StartTurn(); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.AnimNotify_StartTurn // (BlueprintCallable|BlueprintEvent) // @ game+0x38a7480
+	void ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow(int32_t EntryPoint); // Function ABP_WE_EnchantedScarecrow_Scarecrow.ABP_WE_EnchantedScarecrow_Scarecrow_C.ExecuteUbergraph_ABP_WE_EnchantedScarecrow_Scarecrow // (Final|UbergraphFunction) // @ game+0x38a7480
+};
+
